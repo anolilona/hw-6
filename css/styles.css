@@ -3,7 +3,7 @@
     padding: 0;
 }
 body {
-    font-family: arial, sans-serif;
+    font-family: 'lucida sans unicode', sans-serif;
     background-color: white;
 }
 #wrapper {
@@ -18,7 +18,7 @@ header {
     width: 100%;
 }
 #contacts {
-    font-size: 18px;
+    font: 18px arial;
     color: #5e696d;
     float: left;
 }
@@ -48,7 +48,7 @@ header {
     width: 112px;
 }
 #form #enter {
-    font-family: 'lucida sans unicode';
+    font-family: 'lucida sans unicode', sans-serif;
     font-size: 10.91px;
     width: 30px;
     color: white;
@@ -57,14 +57,14 @@ header {
     cursor: pointer; 
 }
 #reg {
-    font-family: 'lucida sans unicode';
+    font-family: 'lucida sans unicode', sans-serif;
     font-size: 10.91px;
     color: white;
     text-decoration: none;
 }
 #fp {
     margin-left: 25px;
-    font-family: 'lucida sans unicode';
+    font-family: 'lucida sans unicode', sans-serif;
     font-size: 10.91px;
     color: #bfbfbf;     
 }
@@ -95,7 +95,7 @@ header {
 #hd_menu {
     margin-left: 140px;
     margin-top: 2px;
-    font-family: 'lucida sans unicode';
+    
     font-size: 13.64px;
     text-transform: uppercase;
 }
