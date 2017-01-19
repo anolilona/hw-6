@@ -93,15 +93,15 @@ header {
     margin-bottom: 10px;
 }
 #hd_menu {
-    margin-left: 140px;
+    margin-left: 120px;
     margin-top: 2px;
-    
     font-size: 13.64px;
     text-transform: uppercase;
+   
 }
 #hd_menu li {
     float: left;
-    margin-left: 5px;
+    margin-left: 15px;
 }
 
 #hd_cart li {
@@ -160,15 +160,17 @@ header {
 }
 #catalogue ul li:nth-child(n+2){
     list-style-type: circle;
-    margin-left: 50px
+    margin: 10px 0px 0px 50px 
 }
 #catalogue a{
     text-decoration: none;
     color: #465961;
 }
 #catalogue a:hover{
+    font-family: arial;
+    font-size: 14px;
+    font-weight: bold;
     font-style: italic;
-    font-weight: 600;
     text-decoration: underline;
 }
 main {
@@ -205,7 +207,7 @@ input[type=checkbox] {
     margin-right: 5px;
     width: 10px;
     height: 10px;
-    box-shadow: -0.5px -0.5px 3px #1c425f
+    box-shadow: inset 2px 1px 2px #1c4360, inset -1px 1px 2px, -0.5px 0 1px;  
 }
 
 #brand_select {
@@ -252,7 +254,12 @@ input[type=checkbox] {
 }
 #logos li {
     display: inline;
+    margin-left: 10px
 }
+#logos {
+    overflow: hidden;
+}
+
 #footer a{
     color: #bec6c9;
     text-decoration: none;
